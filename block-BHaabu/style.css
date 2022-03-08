@@ -1,0 +1,110 @@
+h1,h/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* Custom Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 16px;
+	background: url(assets/banner.jpg);
+background-size: cover;
+padding-bottom: 120px;
+background-attachment: fixed;
+}
+/* container */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header{
+	text-align: center;
+	padding: 32px 0;
+}
+h1{
+	font-size: 48px;
+	font-weight: 700;
+	color: #ffffff;
+}
+/*primary section*/
+.box{
+	width: 30%;
+	height: 300px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.box1{
+	background-color: crimson;
+}
+.box2{
+	background: linear-gradient(to right, #000, crimson);
+}
+.box3{
+	background: radial-gradient( crimson,#000);
+}
+/*secondary section*/
+.margin-top{
+	margin-top: 60px;
+}
+.big-box{
+width: 100%;
+height: 500px;
+background: linear-gradient(to right bottom, transparent, rgba(237, 20, 62,0.5 )), url(assets/DOG.jpg) 50% 50% no-repeat;
+background-size: cover;
+}
